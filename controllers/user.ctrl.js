@@ -208,7 +208,6 @@ exports.getItem = function(req, res, next) {
   }
 
 }
-
 exports.search = function(req, res, next) {
 
   if (req.user) {
@@ -232,8 +231,6 @@ exports.search = function(req, res, next) {
     //     error: "Invalid timestamp"
     //   })
     // }
-
-    
 
   } else {
     return res.json({
